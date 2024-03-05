@@ -1,0 +1,63 @@
+/*================   Accordian Css Start  =================  */
+#row--75020 h1 b{
+    font-family: 'poppins', sans-serif;
+    font-weight:600;
+    letter-spacing:inherit; }
+  #row--75020 .col-inner h1.elHeadline {
+    background-color: transparent !important;
+    box-shadow: 0px 0px 2px #fff !important;
+    transition:all 0.3s ease;}
+  #row--75020 .col-inner div[data-title='headline'] h1{
+    padding: 20px 50px 20px 20px; }
+  #row--75020 .col-inner div[data-title='Paragraph']>div.elHeadline {
+    padding: 30px 20px 20px 20px !important; }
+  #row--75020 .col-inner .ui-state-active h1.elHeadline{
+    color: #2ad252 !important;
+    background: #ffffff !important;
+    padding-bottom: 25px;
+    transition:all 0.3s ease;
+  }
+  #row--75020 .col-inner .ui-state-active h1.elHeadline b, #row--75020 .col-inner .ui-state-active h1.elHeadline i{
+    color:#2ad252 !important;  }
+  #row--75020 .col-inner .ui-accordion-content-active .elHeadline{
+    margin-top:-10px !important;
+    transition:all 0.3s ease;  }
+  #row--75020 .col-inner .elHeadline{
+    border-top: 0;}
+  #row--75020 .col-inner h1.elHeadline{
+    margin-top: 20px;
+    background-color: #eee !important; 
+    cursor: pointer; }
+  #row--75020 .col-inner .elHeadlineWrapper.ui-state-active .ui-icon:after {
+    position: absolute;
+    right: 25px;
+    top: 21px;
+    margin-top: 0;
+    content: '';
+    height: 17px;
+    width: 17px;
+    background-image: url(https://images.clickfunnels.com/9f/1f0959285049f4b22e94f55ebb7ca6/minus-new.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    z-index: 22;  }
+  #row--75020 .col-inner .elHeadlineWrapper.ui-accordion-header-collapsed .ui-icon:after {
+    position: absolute;
+    right: 25px;
+    top: 24px;
+    margin-top: 0;
+    content: '';
+    height: 17px;
+    width: 17px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-image: url(https://images.clickfunnels.com/72/29e8acc2ba4c938617267f162c2edb/plus.png);
+    z-index: 22;
+  }
+  #row--75020 .col-inner .ui-accordion-content-active{
+    box-shadow: 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 4px #fff;
+    background: #fff !important;
+    border-top: 2px solid #2ad252;
+  }
+  /*=================  Accordian Css End =================  */
